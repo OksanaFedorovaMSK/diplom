@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/dc4f8560f3.js" crossorigin="anonymous"></script>
+    <title>О нас</title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        .btn-main-menu {
+            background-color: rgb(88, 88, 100);
+            color: white;
+        }
+
+        .fa-solid {
+            background: -webkit-gradient(linear,
+                    left top,
+                    left bottom,
+                    from(rgb(119, 120, 202)),
+                    to(rgb(221, 192, 30)));
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        .news {
+            background-image: url("yurist4.jpg");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            height: 20rem;
+            width: auto;
+        }
+
+        .box {
+            max-width: 25rem;
+            height: auto;
+            border: 1px solid blue;
+            margin: auto;
+            padding: 0.5rem;
+            border-radius: 4px;
+            background-color: rgba(243, 242, 237, 0.6);
+            box-shadow: 0 0 10px 10px rgba(102, 90, 19, 0.6);
+        }
+
+        .footer {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(40deg, rgba(2, 0, 36, 1) 0%, rgba(194, 231, 251, 1) 36%, rgba(141, 206, 237, 1) 46%, rgba(120, 196, 238, 1) 59%, rgba(0, 212, 255, 1) 100%);
+            text-decoration-color: beige;
+        }
+
+        .card {
+            background-color: #b6def8;
+            background-image: linear-gradient(135deg, #bdd9ec 4%, #747586 50%, #a29393 81%)
+        }
+
+        #cookie_note {
+            display: none;
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            max-width: 90%;
+            transform: translateX(-50%);
+            padding: 20px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        #cookie_note p {
+            margin: 0;
+            font-size: 0.7rem;
+            text-align: left;
+            color: black;
+        }
+
+        .cookie_accept {
+            width: 20%;
+        }
+
+        @media (min-width: 576px) {
+            #cookie_note.show {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 575px) {
+            #cookie_note.show {
+                display: block;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main menu start -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b5bbc4">
+        <a class="navbar-brand" href="#"><img src="LogoVentura.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><a href="http://spancake.p-host.in/main.html">&nbsp;&nbsp;Главная</a>
+                        </p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a href="http://spancake.p-host.in/about.html">&nbsp;&nbsp;О
+                            компании</a></p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a href="http://spancake.p-host.in/razovye.html">&nbsp;&nbsp;Разовые
+                            услуги</a></p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a
+                            href="http://spancake.p-host.in/abonents.html">&nbsp;&nbsp;Абонентское обслуживание</a></p>
+                        </a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск" />
+                <button class="btn btn-main-menu my-2 my-sm-0" type="submit">Поиск</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Main menu end -->
+
+    <!-- Blog start -->
+    <div class="container">
+        <h5 class="text-center">
+            <p>Юридическая компания "Вентура" появилась на свет в 2020 году. Сегодня в нашей команде 18
+                высокопрофессиональных юристов, специализирующихся в различных областях права.
+                Услугами компании пользуются как физические лица, так и крупные частные компании, индивидуальные
+                предприниматели и государственные структуры.
+                <br>На текущий момент за нашими плечами более сотни успешно разрешенных дел в судах общей юрисдикции и
+                арбитражных судах.
+                <br>Все риски застрахованы! Мы готовы помочь вам в любой, даже самой сложной ситуации!
+            </p>
+        </h5>
+    </div>
+    <!-- Blog end -->
+    <!-- Contact start -->
+
+    <div class="container-fluid">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adac424fc9783d653e45c823c034913042446c5ad6e87fde5721d6396caf9cc17&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <div class="cookie_notice">
+        Этот сайт использует файлы cookies
+        <a class="cookie_btn" id="cookie_close" href="#close">ОК</a>
+        <a class="cookie_btn" href="#politika">Политика конфиденциальности</a>
+    </div>
+    </div>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="container-fluid py-4 footer mt-4">
+        <div class="row">
+            <div class="col-3 mx-auto text-center">
+                Все права защищены &nbsp; &copy; &nbsp;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- START Cookie-Alert -->
+    <div id="cookie_note">
+        <p>Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями
+            использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об
+            использовании
+            файлов cookie, <a href="#" target="_blank">нажмите здесь</a>.</p>
+        <button class="button cookie_accept btn btn-primary btn-sm">ОК</button>
+    </div>
+    <!-- END Cookie-Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script>
+        function setCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+        function getCookie(name) {
+            let matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        function checkCookies() {
+            let cookieNote = document.getElementById('cookie_note');
+            let cookieBtnAccept = cookieNote.querySelector('.cookie_accept');
+            if (!getCookie('cookies_policy')) {
+                cookieNote.classList.add('show');
+            }
+            cookieBtnAccept.addEventListener('click', function () {
+                setCookie('cookies_policy', 'true', 1);
+                cookieNote.classList.remove('show');
+            });
+        }
+        checkCookies();
+    </script>
+</body>
+
+</html>
